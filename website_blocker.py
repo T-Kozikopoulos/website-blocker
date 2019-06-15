@@ -40,5 +40,5 @@ while True:
 				# and delete the old content of the hosts file.
 				f.truncate()
 			print('Off-hours...')
-	# Check the time to renew/turn off the blocker every minute
+	# Check the time every minute and renew or turn off the blocker accordingly
 	time.sleep(60)
